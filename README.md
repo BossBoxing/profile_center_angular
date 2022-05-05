@@ -5,7 +5,7 @@
 # Inspiration
 
 พัฒนาตอนฝึกงานที่บริษัท ขอนแก่น ซอฟต์เทค
-เพื่อฝึกใช้งาน Angular
+เพื่อฝึกใช้งาน Angular<br />
 [Soft Squre Group](http://www.softsquaregroup.com/)
 
 # Goal
@@ -23,7 +23,6 @@
 
 # Contact
 
-BossBoxing : <br />
 [Facebook](https://www.facebook.com/BigBossRomantic/)<br />
 [Github](https://github.com/BossBoxing)
 
