@@ -1,3 +1,20 @@
+# Introduction
+
+นี้เป็นการพัฒนาเว็บไซต์ Profile Center ให้ผู้คนเข้ามาสร้าง Profile กัน เพื่อรวบรวมผลงานของตนเอง
+
+# Inspiration
+
+พัฒนาตอนฝึกงานที่บริษัทขอนแก่นซอฟเทค
+เพื่อฝึกใช้งาน Angular
+
+# Goal
+
+สามารถเก็บรวบรวมผลงาน ข้อมูลติดต่อ ของแต่ละบุคคลได้
+
+# Future
+
+- สามารถแชทได้
+
 # Profile
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
