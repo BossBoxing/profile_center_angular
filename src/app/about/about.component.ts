@@ -1,0 +1,27 @@
+import { Component, OnInit } from '@angular/core';
+import { About } from './about';
+
+@Component({
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
+})
+export class AboutComponent implements OnInit {
+
+  about: About = {
+    fname: 'Hudsawat',
+    lname: 'Akkati',
+    nickname: 'BossBoxing',
+    age: 22,
+    college: 'CS@KKU',
+    facebook: 'Hudsawat Akkati',
+    github: 'BossBoxing',
+    photo_profile: 'https://cdn.discordapp.com/attachments/937281289340481647/971875938516238356/boss.jpg',
+  };
+
+  constructor() {  }
+
+  ngOnInit(): void {
+  }
+
+}
