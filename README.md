@@ -23,9 +23,9 @@
 
 # Contact
 
-BossBoxing :__
-[Facebook](https://www.facebook.com/BigBossRomantic/)__
-[Github](https://github.com/BossBoxing)__
+BossBoxing : <br />
+[Facebook](https://www.facebook.com/BigBossRomantic/)<br />
+[Github](https://github.com/BossBoxing)
 
 # Profile
 
