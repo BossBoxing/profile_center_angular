@@ -4,8 +4,9 @@
 
 # Inspiration
 
-พัฒนาตอนฝึกงานที่บริษัทขอนแก่นซอฟเทค
+พัฒนาตอนฝึกงานที่บริษัท ขอนแก่น ซอฟต์เทค
 เพื่อฝึกใช้งาน Angular
+[Soft Squre Group](http://www.softsquaregroup.com/)
 
 # Goal
 
