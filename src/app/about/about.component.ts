@@ -1,5 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { About } from './about';
+
+interface About{
+  fname: string;
+  lname: string;
+  nickname: string;
+  age: number;
+  college: string;
+  facebook: string;
+  github: string;
+  photo_profile: string;
+}
 
 @Component({
   selector: 'app-about',
