@@ -1,0 +1,12 @@
+<h2>News</h2>
+
+<mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>{{news.title}}</mat-card-title>
+      <mat-card-subtitle>{{news.date | date}}</mat-card-subtitle>
+      <img mat-card-sm-image src={{news.photo}} >
+    </mat-card-title-group>
+    <mat-card-content>
+      {{news.desc}}
+    </mat-card-content>
+  </mat-card>

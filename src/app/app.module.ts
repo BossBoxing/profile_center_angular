@@ -9,14 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatButtonModule} from '@angular/material/button';
-import { SignupComponent } from './signup/signup.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     WorkComponent,
-    SignupComponent
+    NewsComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,6 +26,7 @@ import { SignupComponent } from './signup/signup.component';
     MatCardModule,
     FlexLayoutModule,
     MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
