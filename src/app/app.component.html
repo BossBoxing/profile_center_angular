@@ -1,15 +1,16 @@
-<body>
+
     <nav>
         <div fxLayout="row">
             <div fxFlex="20"><h1>Profile Center</h1></div>
-            <div><a href="">Home</a></div>
+            <div><a routerLink="">Home</a></div>&nbsp;
+            <div><a routerLink="/signup">Sign up</a></div>
         </div>
     </nav>
     <div fxLayout="row">
         <div fxFlex="30"><app-about></app-about></div>
         <div fxFlex="70"><app-work></app-work></div>
     </div>
-</body>
+<router-outlet></router-outlet>
 <!-- <footer>
     <h1>By Boss | Hudsawat Akkati</h1>
 </footer> -->
