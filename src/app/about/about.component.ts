@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-interface About{
+export interface About{
   fname: string;
   lname: string;
   nickname: string;

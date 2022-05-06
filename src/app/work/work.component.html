@@ -1,5 +1,19 @@
 <h2>My Works</h2>
 
-<img class="images" src={{work.work_photo}} width="500"/>
-<div><span>Title:</span>{{work.work_title}}</div>
-<div><span>Describe:</span>{{work.work_desc}}</div>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{work.work_title}}</mat-card-title>
+      <mat-card-subtitle>User</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{work.work_photo}} alt="Photo of a Work">
+    <mat-card-content>
+      <p>
+        {{work.work_desc}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="accent">LIKE</button>
+      <button mat-raised-button color="primary">SHARE</button>
+    </mat-card-actions>
+  </mat-card>
